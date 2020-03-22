@@ -1,0 +1,19 @@
+!define TEST_SYSTEM {slim}
+
+!path D:\Workspaces\fitnesse_POC\target\classes
+
+| fitnesse.Calculator |
+| Value1 | Operator | Value2 | calculate? |
+| 3.0 | + | 5.0 | 8.0 |
+| 2.0 | * | 3.5 | 7.0 |
+
+
+| import |
+| fitnesse |
+
+!| Calculator |
+| Value1 | Operator | Value2 | calculate? |
+| 3.0 | + | 5.0 | 8.0 |
+| 2.0 | * | 3.5 | 7.0 |
+| 6.0 | / | 3.0 | 2.0 |
+| 5.0 | / | 2.0 | 2.0 |

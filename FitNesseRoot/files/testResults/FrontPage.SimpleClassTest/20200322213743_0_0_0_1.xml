@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20190716</FitNesseVersion>
+  <rootPath>FrontPage.SimpleClassTest</rootPath>
+  <result>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>17</exceptions>
+    </counts>
+    <date>2020-03-22T21:37:44+08:00</date>
+    <runTimeInMillis>135</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: D:\Workspaces\fitnesse_POC\target\classes&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="4"&gt;&lt;span class="pass"&gt;fitnesse.Calculator&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Value1&lt;/td&gt;
+		&lt;td&gt;Operator&lt;/td&gt;
+		&lt;td&gt;Value2&lt;/td&gt;
+		&lt;td&gt;calculate?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;3.0&lt;/td&gt;
+		&lt;td&gt;+&lt;/td&gt;
+		&lt;td&gt;5.0&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;8.0&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;2.0&lt;/td&gt;
+		&lt;td&gt;*&lt;/td&gt;
+		&lt;td&gt;3.5&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;7.0&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;fitnesse.Calculator&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4"&gt;Calculator &lt;span class="error"&gt;Could not invoke constructor for Calculator[0]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Value1&lt;/td&gt;
+		&lt;td&gt;Operator&lt;/td&gt;
+		&lt;td&gt;Value2&lt;/td&gt;
+		&lt;td&gt;calculate?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;3.0 &lt;span class="error"&gt;The instance decisionTable_2.setValue1. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;+ &lt;span class="error"&gt;The instance decisionTable_2.setOperator. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;5.0 &lt;span class="error"&gt;The instance decisionTable_2.setValue2. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;8.0 &lt;span class="error"&gt;The instance decisionTable_2.calculate. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;2.0 &lt;span class="error"&gt;The instance decisionTable_2.setValue1. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;* &lt;span class="error"&gt;The instance decisionTable_2.setOperator. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;3.5 &lt;span class="error"&gt;The instance decisionTable_2.setValue2. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;7.0 &lt;span class="error"&gt;The instance decisionTable_2.calculate. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;6.0 &lt;span class="error"&gt;The instance decisionTable_2.setValue1. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;/ &lt;span class="error"&gt;The instance decisionTable_2.setOperator. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;3.0 &lt;span class="error"&gt;The instance decisionTable_2.setValue2. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;2.0 &lt;span class="error"&gt;The instance decisionTable_2.calculate. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;5.0 &lt;span class="error"&gt;The instance decisionTable_2.setValue1. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;/ &lt;span class="error"&gt;The instance decisionTable_2.setOperator. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;2.0 &lt;span class="error"&gt;The instance decisionTable_2.setValue2. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;2.0 &lt;span class="error"&gt;The instance decisionTable_2.calculate. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>SimpleClassTest</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_0', instruction='make', instanceName='decisionTable_0', className='fitnesse.Calculator', args=[]}</instruction>
+        <slimResult>pass(fitnesse.Calculator)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_0_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>fitnesse.Calculator</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_4', instruction='call', instanceName='decisionTable_0', methodName='setValue1', args=[3.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_0_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_5', instruction='call', instanceName='decisionTable_0', methodName='setOperator', args=[+]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_0_5</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_6', instruction='call', instanceName='decisionTable_0', methodName='setValue2', args=[5.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_0_6</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_8', instruction='call', instanceName='decisionTable_0', methodName='calculate', args=[]}</instruction>
+        <slimResult>pass(8.0)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_0_8</instructionId>
+          <col>3</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>8.0</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_10', instruction='call', instanceName='decisionTable_0', methodName='setValue1', args=[2.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_0_10</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_11', instruction='call', instanceName='decisionTable_0', methodName='setOperator', args=[*]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_0_11</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_12', instruction='call', instanceName='decisionTable_0', methodName='setValue2', args=[3.5]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_0_12</instructionId>
+          <col>2</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_14', instruction='call', instanceName='decisionTable_0', methodName='calculate', args=[]}</instruction>
+        <slimResult>pass(7.0)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_0_14</instructionId>
+          <col>3</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>7.0</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='import_1_0', instruction='import', path='fitnesse.Calculator'}</instruction>
+        <slimResult>pass(fitnesse.Calculator)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_1_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>fitnesse.Calculator</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_0', instruction='make', instanceName='decisionTable_2', className='Calculator', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_2_0</instructionId>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>Could not invoke constructor for Calculator[0]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_4', instruction='call', instanceName='decisionTable_2', methodName='setValue1', args=[3.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_2_4</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_2.setValue1. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_5', instruction='call', instanceName='decisionTable_2', methodName='setOperator', args=[+]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_2_5</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_2.setOperator. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_6', instruction='call', instanceName='decisionTable_2', methodName='setValue2', args=[5.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_2_6</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_2.setValue2. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_8', instruction='call', instanceName='decisionTable_2', methodName='calculate', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_2_8</instructionId>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>The instance decisionTable_2.calculate. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_10', instruction='call', instanceName='decisionTable_2', methodName='setValue1', args=[2.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_2_10</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_2.setValue1. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_11', instruction='call', instanceName='decisionTable_2', methodName='setOperator', args=[*]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_2_11</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_2.setOperator. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_12', instruction='call', instanceName='decisionTable_2', methodName='setValue2', args=[3.5]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_2_12</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_2.setValue2. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_14', instruction='call', instanceName='decisionTable_2', methodName='calculate', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_2_14</instructionId>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>The instance decisionTable_2.calculate. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_16', instruction='call', instanceName='decisionTable_2', methodName='setValue1', args=[6.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_2_16</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_2.setValue1. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_17', instruction='call', instanceName='decisionTable_2', methodName='setOperator', args=[/]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_2_17</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_2.setOperator. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_18', instruction='call', instanceName='decisionTable_2', methodName='setValue2', args=[3.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_2_18</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_2.setValue2. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_20', instruction='call', instanceName='decisionTable_2', methodName='calculate', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_2_20</instructionId>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>The instance decisionTable_2.calculate. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_22', instruction='call', instanceName='decisionTable_2', methodName='setValue1', args=[5.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_2_22</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_2.setValue1. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_23', instruction='call', instanceName='decisionTable_2', methodName='setOperator', args=[/]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_2_23</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_2.setOperator. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_24', instruction='call', instanceName='decisionTable_2', methodName='setValue2', args=[2.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_2_24</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_2.setValue2. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_26', instruction='call', instanceName='decisionTable_2', methodName='calculate', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_2_26</instructionId>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>The instance decisionTable_2.calculate. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>"C:\Program Files\Java\jdk1.8.0_131\bin\java" -cp C:\Users\UX310\.m2\repository\org\fitnesse\fitnesse\20190716\fitnesse-20190716.jar;D:\Workspaces\fitnesse_POC\target\classes fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr>Slim  Map converter not loaded: could not find class org/htmlparser/NodeFilter
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>532</totalRunTimeInMillis>
+</testResults>
+
