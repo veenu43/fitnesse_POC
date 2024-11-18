@@ -19,7 +19,7 @@
         <dependency>
             <groupId>org.fitnesse</groupId>
             <artifactId>fitnesse</artifactId>
-            <version>20190716</version>
+            <version>20241026</version>
             <scope>runtime</scope>
         </dependency>
     </dependencies>
